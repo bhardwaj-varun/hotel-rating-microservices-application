@@ -1,0 +1,3 @@
+[submodule "ServiceRegistry"]
+	path = ServiceRegistry
+	url = git@github.com:bhardwaj-varun/micro-service-registry.git
