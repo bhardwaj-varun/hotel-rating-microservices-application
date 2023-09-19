@@ -8,6 +8,37 @@
             "mainClass": "com.vb.serviceregistry.ServiceRegistryApplication",
             "projectName": "ServiceRegistry",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=42405 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ServiceRegistry"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HotelServiceApplication<HotelService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.vb.hotelservice.HotelServiceApplication",
+            "projectName": "HotelService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RatingServiceApplication<RatingService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.vb.ratingservice.RatingServiceApplication",
+            "projectName": "RatingService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserServiceApplication<UserSerivce>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.vb.userservice.UserServiceApplication",
+            "projectName": "UserSerivce",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]

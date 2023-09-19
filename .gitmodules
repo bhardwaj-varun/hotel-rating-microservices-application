@@ -1,3 +1,15 @@
 [submodule "ServiceRegistry"]
 	path = ServiceRegistry
 	url = git@github.com:bhardwaj-varun/micro-service-registry.git
+[submodule "database"]
+	path = database
+	url = git@github.com:bhardwaj-varun/database-microservice.git
+[submodule "UserService"]
+	path = UserService
+	url = git@github.com:bhardwaj-varun/micro-user-service.git
+[submodule "RatingService"]
+	path = RatingService
+	url = git@github.com:bhardwaj-varun/micro-rating-service.git
+[submodule "HotelService"]
+	path = HotelService
+	url = git@github.com:bhardwaj-varun/micro-hotel-service.git
